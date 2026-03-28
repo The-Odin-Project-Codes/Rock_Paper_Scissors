@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Rock Paper Scissors</title>
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <title>Rock Paper Scissors</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 40px; }
+    button { font-size: 24px; margin: 10px; padding: 10px 20px; cursor: pointer; }
+    #result { font-size: 20px; margin: 20px 0; color: #333; }
+    #score { font-size: 18px; color: #666; }
+    #winner { font-size: 28px; font-weight: bold; color: green; }
+  </style>
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <div>
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+  </div>
+  <div id="result"></div>
+  <div id="score">You: 0 | Computer: 0</div>
+  <div id="winner"></div>
+
+  <script src="script.js" ></script>
+</body>
 </html>
